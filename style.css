@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+
+}
+.main-header {
+
+    background: black;
+}
+.main-header__logo{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.main-header_items{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+}
+.main-header__item{
+    display: inline;
+    margin: 0 10px;
+}
+.main-header__item a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 34px;
+    color: white;
+}
+.main-header__logo a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 34px;
+    color: white;
+}
+
+.main-content{
+    height: 10em;
+    margin-top: 10em;
+}
+
+.main-content__game-field {
+    height: 100%;
+    text-align: center;
+    
+}
+
+.main-content__game-start{
+    font-size: 34px;
+    margin-top: 0.5em;
+
+}
+
+.main-content__game_text {
+    font-size: large;
+    margin-top: 1em;
+    visibility: hidden;
+}
+.main-content__random-number{
+    visibility: hidden;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main-content__result{
+    display: none;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
